@@ -85,17 +85,19 @@ html {
 .content .content-section{
     width: 100%;
 }
-.content .content-section .no-smoking{
+.content .content-section .content-box{
     width: 100px;
     height: 100px;
-    margin: 20px 15px 15px 15px;
+    margin: 25px 0px 0px 20px;
+    float: left;
 }
-.content .content-section .no-smoking img{
+.content .content-section .content-box img{
     width: 70px;
     height: 70px;
     margin: 0px 15px 5px 15px;
 }
-.content .content-section .no-smoking p{
+.content .content-section .content-box p{
     width: 100px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
