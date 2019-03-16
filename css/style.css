@@ -68,7 +68,6 @@ html {
     float: left;
     text-align: center;
     line-height: 40px;
-    color: #424242;
 }
 .content .content-header i{
     float: right;
@@ -97,7 +96,7 @@ html {
 .content .content-section .content-box p{
     width: 100px;
     text-align: center;
-    font-family: 'Roboto', sans-serif;
+    color: #424242;
 }
 .content .content-section .content-right{
     width: 250px;
@@ -121,7 +120,7 @@ html {
     width: 180px;
 }
 .content .content-section .content-left p{
-    font-size: 15px;
+    font-size: 14px;
 }
 .content .content-section .content-left ul{
     margin: 0px 0px 15px 30px;
