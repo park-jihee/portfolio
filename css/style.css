@@ -61,14 +61,7 @@ html {
     border-bottom: 1px solid #888888;
     border-radius: 10px 10px 0px 0px;
 }
-.content .content-header img{
-    float: left;
-    width: 40px;
-    height: 30px;
-    margin: 5px;
-}
 .content .content-header p{
-    float: left;
     text-align: center;
     line-height: 40px;
 }
@@ -77,6 +70,7 @@ html {
     width: 15px;
     height: 15px;
     margin: 12px;
+    margin-top: -27px;
 }
 .content .content-header i:hover{
     cursor: pointer;
