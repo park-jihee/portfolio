@@ -26,36 +26,38 @@ html{
   font-size: 13px;
   margin: 0;
 }
-.content-right{
-  width: 250px;
-  float: left;
-  padding: 50px 0px 30px 50px;
-}
 .content-left{
-  width: 250px;
+  width: 225px;
+  height: 360px;
+  float: left;
+  padding: 88px 50px;
+}
+.content-right{
+  width: 225px;
+  height: 360px;
   float: left;
   padding: 50px 30px 30px 30px;
 }
-.content-right img{
-  width: 180px;
-  height: 180px;
+.content-left img{
+  width: 125px;
+  height: 125px;
   border-radius: 5px;
 }
-.content-right p{
-  margin-top: 35px;
+.content-left p{
+  margin-top: 25px;
   text-align: center;
   font-size: 20px;
-  width: 180px;
+  width: 125px;
 }
-.content-left p{
+.content-right p{
   font-size: 14px;
   margin-top: 9px;
   margin-left: -25px;
 }
-.content-left ul{
+.content-right ul{
   margin-left: 30px;
 }
-.content-left ul li{
+.content-right ul li{
   font-size: 13px;
   margin: 5px 0px;
 }
