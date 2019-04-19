@@ -15,55 +15,55 @@ var iframe = $('#iframe');
 folder_html.click(function () {
     $('.modal').show();
     folder_title.text("HTML");
-    iframe.attr("src", "html.html");
+    iframe.attr("src", "./project/html.html");
 });
 
 folder_js.click(function () {
     $('.modal').show();
     folder_title.text("JAVASCRIPT");
-    iframe.attr("src", "javascript.html");
+    iframe.attr("src", "./project/javascript.html");
 });
 
 folder_android.click(function () { 
     $('.modal') .show(); 
     folder_title.text("ANDROID");
-    iframe.attr("src", "android.html");
+    iframe.attr("src", "./project/android.html");
 });
 
 folder_node.click(function () { 
     $('.modal').show();
     folder_title.text("NODE.JS");
-    iframe.attr("src", "node.html");
+    iframe.attr("src", "./project/node.html");
 });
 
 folder_arduino.click(function () { 
     $('.modal').show();
     folder_title.text("ARDUINO");
-    iframe.attr("src", "arduino.html");
+    iframe.attr("src", "./project/arduino.html");
 });
 
 folder_python.click(function () { 
     $('.modal').show(); 
     folder_title.text("PYTHON");
-    iframe.attr("src", "python.html");
+    iframe.attr("src", "./project/python.html");
 });
 
 folder_php.click(function () { 
     $('.modal').show();
     folder_title.text("PHP");
-    iframe.attr("src", "php.html");
+    iframe.attr("src", "./project/php.html");
 });
 
 folder_jsp.click(function () { 
     $('.modal').show();
     folder_title.text("JSP");
-    iframe.attr("src", "jsp.html");
+    iframe.attr("src", "./project/jsp.html");
 });
 
 folder_user.click(function () { 
     $('.modal').show();
     folder_title.text("USER");
-    iframe.attr("src", "user.html");
+    iframe.attr("src", "./project/user.html");
 });
 
 folder_github.click(function () { 
