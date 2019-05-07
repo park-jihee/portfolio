@@ -1,25 +1,25 @@
-var close = $('.content .content-header i');
-var folder_html = $('#html');
-var folder_js = $('#js');
-var folder_android = $('#android');
-var folder_node = $('#node');
-var folder_arduino = $('#arduino');
-var folder_python = $('#python');
-var folder_php = $('#php');
-var folder_jsp = $('#jsp');
-var folder_user = $('#user');
-var folder_github = $('#github');
-var folder_title = $('#folder-title');
-var iframe = $('#iframe');
+const folder_html = document.getElementById('html');
+const folder_js = document.getElementById('js');
+const folder_android = document.getElementById('android');
+const folder_node = document.getElementById('node');
+const folder_arduino = document.getElementById('arduino');
+const folder_python = document.getElementById('python');
+const folder_php = document.getElementById('php');
+const folder_jsp = document.getElementById('jsp');
+const folder_user = document.getElementById('user');
+const folder_github = document.getElementById('github');
+const folder_title = document.getElementById('folder-title');
+const iframe = document.getElementById('iframe');
 
-var mini_html = $('#mini-html');
-var mini_js = $('#mini-js');
-var mini_android = $('#mini-android');
-var mini_node = $('#mini-node');
-var mini_arduino = $('#mini-arduino');
-var mini_python = $('#mini-python');
-var mini_php = $('#mini-php');
-var mini_jsp = $('#mini-jsp');
+const mini_html = document.getElementById('mini_html');
+const mini_js = document.getElementById('mini_js');
+const mini_android = document.getElementById('mini_android');
+const mini_node = document.getElementById('mini_node');
+const mini_arduino = document.getElementById('mini_arduino');
+const mini_python = document.getElementById('mini_python');
+const mini_php = document.getElementById('mini_php');
+const mini_jsp = document.getElementById('mini_jsp');
+
 
 folder_html.click(function () {
     $('.modal').show();
